@@ -1,0 +1,17 @@
+{
+    "name": "hostlink/holiday-hk",
+    "description": "2018 holiday",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/ICal.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Raymond Chong"
+        }
+    ]
+}
