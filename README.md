@@ -1,2 +1,11 @@
 # holiday-hk
 
+Hong Kong holiday 2011 to 2018
+
+```php
+$hs=new HL\Holiday("en");
+foreach($hs->getHoliday("2018-01-01","2018-12-31") as $h){
+    print_r($h);
+}
+```
+  
