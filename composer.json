@@ -11,8 +11,13 @@
     },
     "authors": [
         {
-            "name": "Raymond Chong"
+            "name": "Raymond Chong",
+            "email": "raymond@hostlink.com.hk"
         }
     ],
-    "version": "1.1.0"
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "version": "1.2.0"
 }

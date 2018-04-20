@@ -8,7 +8,7 @@ class Holiday
     public $ical;
     public $path;
 
-    public function __construct($language)
+    public function __construct($language = "en")
     {
         $this->language = $language;
         $this->path = realpath(__DIR__ . "/../../ics/$language.ics");
@@ -38,5 +38,17 @@ class Holiday
     public function getEvents()
     {
         return $this->ical->events();
+    }
+
+    public function isHoliday($date)
+    {
+        foreach ($this->getEvents() as $event) {
+            $d = $event["DTSTART"];
+            $d = substr($d, 0, 4) . "-" . substr($d, 4, 2) . "-" . substr($d, 6, 4);
+            if ($d == $date) {
+                return true;
+            }
+        }
+        return false;
     }
 }
