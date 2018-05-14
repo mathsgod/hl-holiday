@@ -3,7 +3,7 @@
     "description": "2012 - 2019 Hong Kong holiday",
     "autoload": {
         "psr-4": {
-            "HL\\": "src/"
+            "": "src/"
         },
         "classmap": [
             "src/ICal.php"
@@ -19,5 +19,5 @@
     "require-dev": {
         "phpunit/phpunit": "*"
     },
-    "version": "1.2.1"
+    "version": "1.2.2"
 }
