@@ -16,6 +16,18 @@ final class HolidayTest extends TestCase
 
     }
 
+    public function test_getEvents(){
+        $hl=new Holiday();
+        $this->assertNotNull($hl->getEvents());
+    }
+
+    public function test_getHoliday()
+    {
+        $hl=new Holiday();
+        $this->assertNotNull($hl->getHoliday("2019-01-01","2019-12-31"));
+
+    }
+
 
 
 }
