@@ -1,5 +1,5 @@
 {
-    "name": "hostlink/holiday-hk",
+    "name": "mathsgod/hl-holiday",
     "description": "2012 - 2019 Hong Kong holiday",
     "autoload": {
         "psr-4": {
