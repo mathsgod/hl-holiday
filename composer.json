@@ -18,6 +18,5 @@
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "*"
-    },
-    "version": "1.2.2"
+    }
 }
