@@ -1,3 +1,5 @@
+![PHP Composer](https://github.com/mathsgod/hl-holiday/workflows/PHP%20Composer/badge.svg)
+
 # holiday-hk
 
 Hong Kong holiday 2011 to 2018
