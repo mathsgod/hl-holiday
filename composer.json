@@ -1,6 +1,6 @@
 {
     "name": "mathsgod/hl-holiday",
-    "description": "2012 - 2020 Hong Kong holiday",
+    "description": "Public holiday in Hong Kong",
     "autoload": {
         "psr-4": {
             "": "src/"
