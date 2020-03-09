@@ -32,4 +32,4 @@ jobs:
         tools: php-cs-fixer, phpunit
 
     - name: Run test suite
-      run: vendor/bin/phpunit
+      run: vendor/bin/phpunit tests
