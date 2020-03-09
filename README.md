@@ -5,7 +5,7 @@
 
 # holiday-hk
 
-Hong Kong holiday 2011 to 2018
+Hong Kong public holiday data
 
 ```php
 $hs=new HL\Holiday("en");
