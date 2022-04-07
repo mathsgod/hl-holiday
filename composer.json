@@ -3,7 +3,7 @@
     "description": "Public holiday in Hong Kong",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "HL\\": "src/"
         },
         "classmap": [
             "src/ICal.php"
