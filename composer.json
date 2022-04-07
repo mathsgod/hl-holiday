@@ -15,7 +15,6 @@
             "email": "raymond@hostlink.com.hk"
         }
     ],
-    "require": {},
     "require-dev": {
         "phpunit/phpunit": "*"
     },
