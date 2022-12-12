@@ -1,6 +1,6 @@
 {
     "name": "mathsgod/hl-holiday",
-    "description": "Public holiday in Hong Kong",
+    "description": "Public holiday in Hong Kong. (Start from 2011)",
     "autoload": {
         "psr-4": {
             "HL\\": "src/HL/"
